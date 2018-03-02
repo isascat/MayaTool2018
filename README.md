@@ -7,49 +7,35 @@ A set of tools to enhance the everyday tasks and workflow of a Maya artist.
 
 These tools should enhance the quality and speed of an artists workflow, under any enviorment.  They should easily enhance existing scripts, rigs, characters and pipeline.
 
-
-## Featured Tools
-### General
-- **"Utilities"** : Useful library of generic Maya tasks. *(required for all tools below.)*
-- **"Script Installer"** : Automate the installation of any custom Maya script.
+### Pose Library
+- **"Save Poses"** : Create custom library of rigging poses or other animation.
+- **"Remove All"** : Clean out library.
 
 
-### Rigging
-- **"poly2icon"** : Generates a single nurbs curve object from a given polygon object's edges.  Good for easily creating rig controls and other complex nurbs curve shapes. 
+### Rigging Tools
+- **"Joint Tool: Constraints / Prefix"** : Create joints chains and constraints with prefix. 
+- **"Joint Tool: Rename Hirerachy"** : Rename joint hirerachy. 
+- **"Joint Tool: Create Joint on CV"** : Generate joints on CV points. 
+- **"Align Objects"** : Align object and it's pivot to target object. 
+- **"Create Locator on Selected Object"** : Create locater with target's world matrix. 
+- **"Create Slave Rigs"** : Create slave rigs with selected joints chain. 
+- **"Create Joint Chain Controller / Constraint"** : Create joints chains controller with every constraint needed.
 
 
-### Animation
-- **"checkArc"** : An advanced arc-plotting tool for animation cleanup
-- **"tweener"** : Add ease-in/out keyframes quickly to the current frame
-- **"flatten/exaggerate"** : Scale keyframe values based on surrounding key values
-- **"keyMerge"** : Key channels with all frames possessing keys.
-    - Similar Concept: http://aaronkoressel.com/index.php?nav=tools "ackTimingFramework"
-- **"simpleSnap"** : A quick way to record and apply world-space transforms to any object.
-- **"multiSnap"** : A quick way to record and apply world-space transforms to sets of objects.
+### File Tools
+- **"Save as Default"** : Save Default File.
+- **"Save as Maya Ascii"** : Save as .ma.
+- **"Save as Maya Binary"** : Save as .mb.
+- **"Save as Maya Maya Ascii & Binary"** : Save as both .ma and.mb.
+- **"Set info to current file"** : Save file info.
+- **"Export Animation"** : Save out animation.
 
-### Viewport
-- **"2D Pan/Zoom"** : Create a sleeker 2d Zoom/Pan experience
-
-
-### UI
-- **"SelectionList" : A generic UI for easily displaying a list of items to apply a custom-defined action(s).
+### Asset Tools
+- **"Refresh Library"** : Refresh asset library in your disk.
+- **"Refresh Imported"** : Import asset as reference to your scene and update the window.
 
 
 
 ## More Info
-### Random Scripts
-- https://gist.github.com/evitolins/28ff016bcab2aced4bbf
-
-### References & Links
-- http://aaronkoressel.com/
-- http://morganloomis.com/
-- http://www.supercrumbly.com/
-- http://www.macaronikazoo.com/
-- http://www.paolodominici.com/
-- http://www.anzovin.com/
-- http://www.cgaddict.com/
-- http://www.red9consultancy.com/
-- http://mgland.com/
-- http://www.graphite9.com/
-- https://github.com/assumptionsoup/guppy_animation_tools
-- http://ewertb.soundlinker.com/maya.php
+### FX website
+- http://isafx.com/
